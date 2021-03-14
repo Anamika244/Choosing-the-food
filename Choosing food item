@@ -1,0 +1,27 @@
+#include<stdio.h>
+main()
+{
+	int ch=0;
+	printf("Enter your choice of number between 1 to 5");
+	scanf("%d",&ch);
+	switch(ch)
+	{
+		case 1:
+			printf("The food item - DOSA with SANBHAR\nThe price - Rs 60");
+			break;
+	  case 2:
+	    printf("The food item - PONGAL and VADA\nThe price - Rs 100");
+			break;
+		case 3:
+			printf("The food item - WHOLE SOUTH INDIAN MEALS\nThe price - Rs 250");
+			break;
+		case 4:
+			printf("The food item - SWEET PANIYARUM\nThe price - Rs 30");
+			break;
+		case 5:
+			printf("The food item - JIGARTHANDA\The price - Rs 80");
+			break;
+		default:
+			printf("I hope you do have preferences. Best of luck in choosing!!");
+	}
+}
